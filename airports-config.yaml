@@ -1,0 +1,12 @@
+openapi: 3.0.0
+info:
+  title: Airports API
+  description: Get all your airport data here https://raw.githubusercontent.com/WhiteHatLearningProducts/airports/master/airportsData.json 
+  version: 1.0.0
+servers:
+  - url: http://localhost:3000
+    description: if you are using NodeJS your dev port might be 3000
+  - url: http://localhost:8080
+    description: if you are using Spring your dev port will be 8080
+  - url: https://airports-api.whitehatcoaches.org.uk
+    description: this is the production baseURL
